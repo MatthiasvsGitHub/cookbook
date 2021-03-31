@@ -8,11 +8,20 @@ body {
     background-color: rgb(39,37, 31);
     font-family: monospace;
 }
+.page_title {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 15%;
+} 
+.page_title h2 {
+    color: white;
+}
 .content_about{
     display: flex;
     position: relative;
     width: 100%;
-    margin: 15% auto;
+    margin: 10% auto;
 }
 
 .about_pic {
@@ -34,6 +43,7 @@ body {
 .content_about h3 {
     color: white;
 }
+
 .content_about ul {
     list-style: none;
     margin-top: 5%;
