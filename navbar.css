@@ -2,7 +2,7 @@
 .navbar {
     margin-bottom: 5%;
     border: red 8px solid;
-    border-radius: 30px;
+    border-bottom-right-radius: 50px 20px;
     background-color: rgb(39, 37, 31);
     box-shadow: 0px 0px 45px 0px rgba(255, 255, 255, 0.8);
 }
@@ -13,7 +13,7 @@
 .nav-link {
     font-size: 1.65em;
     border: 1px solid white;
-    border-radius: 5px;
+    border-bottom-right-radius: 50px 20px;
     margin: 5px 10px 5px 10px;
     text-align: center;
 }
@@ -42,6 +42,7 @@
     margin: 0;
     background-color: rgba(255, 255, 255, 0.2);
     border: 1px white solid;
+    border-bottom-right-radius: 50px 20px;
 }
 
 .navbar-nav img:hover {
@@ -59,6 +60,7 @@
         align-self: center;
         border: 1px solid white;
         background-size: contain;
+        border-bottom-right-radius: 50px 20px;
     }
 }
 .nav-link:hover {
@@ -68,4 +70,5 @@
 
 .navbar-toggler {
     margin-right: 5%;
+    border-bottom-right-radius: 50px 20px;
 }
