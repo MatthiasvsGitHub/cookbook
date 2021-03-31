@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: monospace;
+    font-family: monospace !important;
     font-weight: normal;
 }
 
@@ -13,7 +13,7 @@ h1.headingHome {
     align-content: center;
     text-align: center;
     color: white;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 5%;
     font-size: 6vw;
     /* border: solid red 1px; */
