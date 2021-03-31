@@ -18,7 +18,7 @@ body {
 .about_pic {
     position: relative;
     width: 400px;
-    height: auto;
+    height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -26,6 +26,9 @@ body {
     object-fit: cover; 
     overflow: hidden;
     box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.about_pic:hover {
+    transform: scale(1.1);
 }
 
 .content_about h3 {
@@ -53,6 +56,13 @@ body {
 .repo {
     position: relative;
     margin-top: 5%;
+}
+.aboutUsText {
+    position: relative;
+    top: 5%;
+    border-bottom-right-radius: 50px 20px;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+    border: 2px solid white;
 }
 
 .content_about h3,
