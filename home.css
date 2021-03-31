@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+body {
+    background-color: rgb(39, 37, 31);
+}
+
+h1.headingHome {
+    align-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 6vw;
+    /* border: solid red 1px; */
+}
+
+.homeBox {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+    /* border: red solid 1px; */
+    width: auto;
+}
+
+.homeImageContainer {
+   display: inline-block;
+   position: relative;
+   background-color: transparent;
+}
+.homeImageContainer img {
+    width: 90%;
+    height: 90%;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    object-fit: cover;
+    overflow: hidden;
+    background-position: center;
+    backface-visibility: hidden;
+    /* border: 3px blue solid; */
+}
+
+.homeDescription {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    top: 0;
+    margin: 20px 9px 0px 0px;
+    padding: 0px;
+    /* padding-right: 50px; */
+    /* left: 1%; */
+    /* right: 30px; */
+    /* top: 20px; */
+    /* bottom: 20px; */
+    height: 90%;
+    width: auto;
+    font-size: calc(100% + 1.5vw + 1vh);
+    
+    background-color: rgba(39, 37, 31, 0.8);
+    color: white;
+    /* border: solid 1px green; */
+    opacity: 0;
+}
+
+/* .homeImageContainer img:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+    transition: 500ms;  
+    opacity: 0.3;
+} */
+.homeDescription:hover {
+    visibility: visible;
+    opacity: 1;
+    color: white;
+    /* transform: scale(1.2); */
+    box-shadow: 0px 0px 45px 0px rgba(255, 255, 255, 0.8);
+    transition: 500ms;  
+}
+/* .homeDescription a, .homeDescription a:hover, .homeDescription a:active, .homeDescription a:visited {
+    color: white;
+    text-decoration: none;
+} */
