@@ -32,6 +32,9 @@
     height: 50px;
     color: white;
     text-align: left;
+    outline: none;
+    -webkit-box-shadow: none;
+    outline: -webkit-focus-ring-color auto 0px;
 }
 
 .navbar-nav img, button {
