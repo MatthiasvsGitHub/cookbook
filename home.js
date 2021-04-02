@@ -1,4 +1,4 @@
-const randomImage1 = ["media/italianfood/italian_bean_salad.png","media/italianfood/lasagna.png","media/italianfood/roasted_ricotta_pasta.png"];
+const randomImage1 = ["media/ivorianfood/attieke.jpeg","media/ivorianfood/gbofloto.jpeg","media/ivorianfood/saucegombo.JPG"];
 const randomImage2 = ["media/germanfood/rouladen.jpg","media/germanfood/sauerkraut.jpg","media/germanfood/schweinhaxe.jpg"];
 const randomImage3 = ["media/italianfood/italian_bean_salad.png","media/italianfood/lasagna.png","media/italianfood/roasted_ricotta_pasta.png"];
 const randomImage4 = ["media/turkishfood/chicken.png","media/turkishfood/dolma.png","media/turkishfood/kebab.png"];
