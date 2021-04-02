@@ -35,6 +35,7 @@ h1.headingHome {
 .homeImageContainer img {
     width: 90%;
     height: 90%;
+    max-height: 700px;
     margin: 20px 0px 0px 0px;
     padding: 0px;
     object-fit: cover;
