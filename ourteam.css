@@ -1,4 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace !important;
+  font-weight: normal;
+}
+
 body {
+  background-color: rgb(39, 37, 31);
+}
+
+.teamContainer {
     margin: 0;
     padding: 0;
     
