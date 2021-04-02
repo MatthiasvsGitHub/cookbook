@@ -11,6 +11,8 @@ body {
 .content_contact {
     position: relative;
     max-width: 1500px;
+    height: 64vh;
+    min-height: 550px;
     width: 80%;
     margin:0 auto;
 }
