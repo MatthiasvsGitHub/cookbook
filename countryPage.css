@@ -1,0 +1,248 @@
+/* * {
+    box-sizing: border-box; 
+    font-size: 16px;
+} */
+html,
+body {
+    overflow-x: hidden;
+    background-color: rgb(39,37, 31);
+    font-family: monospace;
+}
+#content a {
+    text-decoration: none;
+    color: rgb(39,37,31);
+    width: 100%;
+}
+.flags {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+} 
+.flags h1 {
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 10%;
+}
+.left  {
+    position: relative;
+}
+.flags img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.food_example {
+    position: relative;
+    display: flex;
+    width: 100%;
+    top: 10%;
+    margin-top: 5%;
+    margin-bottom:5%;
+    border: 2px solid  white;
+    border-bottom-right-radius: 50px 20px;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.food_example:hover {
+    transform: scale(1.1);
+}
+
+.food_example  .food_image1 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/foodfest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    object-fit: cover; 
+    overflow: hidden;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+
+.food_example  .food_image2 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/foodfest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.food_example  .food_image3 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.food_example  .food_image4 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/germanfood/sauerkraut.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    object-fit: cover; 
+    overflow: hidden;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.food_example  .food_image5 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/germanfood/rouladen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    object-fit: cover; 
+    overflow: hidden;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.food_example  .food_image6 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/germanfood/schweinhaxe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    object-fit: cover; 
+    overflow: hidden;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.food_example  .food_image7 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/turkishfood/kebab.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    object-fit: cover; 
+    overflow: hidden;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.food_example  .food_image8 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/turkishfood/dolma.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    object-fit: cover; 
+    overflow: hidden;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.food_example  .food_image9 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/turkishfood/chicken.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    object-fit: cover; 
+    overflow: hidden;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.food_example  .food_image10 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/italianfood/roasted_ricotta_pasta.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    object-fit: cover; 
+    overflow: hidden;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.food_example  .food_image11 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/italianfood/lasagna.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    object-fit: cover; 
+    overflow: hidden;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.food_example  .food_image12 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/italianfood/italian_bean_salad.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    object-fit: cover; 
+    overflow: hidden;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.food_example  .food_image13 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/italianfood/roasted_ricotta_pasta.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    object-fit: cover; 
+    overflow: hidden;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.food_example  .food_image14 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/italianfood/lasagna.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    object-fit: cover; 
+    overflow: hidden;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.food_example  .food_image15 {
+    width: 50%;
+    height: 300px;
+    background-image: url("media/italianfood/italian_bean_salad.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    object-fit: cover; 
+    overflow: hidden;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.5);
+}
+.short_title {
+    display: block;
+    width: 90%;
+    font-size: 1rem;
+}
+.short_title h3{
+    position: relative;
+    margin-left: 5%;
+    padding-top: 5%;
+    color: white;
+}
+.short_description {
+    margin-left: 5%;
+    width: 100%;
+    padding-right: 5%;
+    padding-top: 2%;
+    color: white;
+}
+

@@ -1,0 +1,53 @@
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 5%;
+    border:  2px solid rgba(255, 199, 44, 1);
+    border-top-right-radius: 50px 20px;
+    box-shadow: 0px 0px 45px 0px rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 199, 44, 0.2);
+    color: white;
+    text-align: center;
+}
+
+.aboutContact {
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 1%;
+    /* margin-bottom: auto; */
+}
+
+.aboutContact>a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 5% 0px 5%; /* margin top and bottom dont seem to work */ 
+    width: auto;
+    font-size: 1.75em;
+    padding: 3px 10px;
+    border: 1px solid white;
+    border-bottom-right-radius: 50px 20px;
+    text-align: center;
+}
+
+.footLink:hover {
+    /* transform: scale(1.05); */ /* Does not work */
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.8);
+}
+
+.footerSocial img {
+    margin: 2.5% 5% 0px 5%;
+    width: 30px;
+    -webkit-transition: .25s ease;
+    -moz-transition: .25s ease;
+    -o-transition: .25s ease;
+     transition: .25s ease;
+}
+
+.footerSocial img:hover {
+    transform: scale(1.3);
+}
