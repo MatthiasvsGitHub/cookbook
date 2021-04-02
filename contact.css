@@ -16,15 +16,22 @@ body {
     width: 80%;
     margin:0 auto;
 }
-@media screen and (max-width: 767px) {
-    .content_contact {
-        min-height: 800px;
-    }
-}
 .content_contact h2,
 .content_contact p {
     color: white;
 }
+.content_contact h2 {
+    font-size: 4vw;
+}
+@media screen and (max-width: 767px) {
+    .content_contact {
+        min-height: 800px;
+    }
+    .content_contact h2 {
+        font-size: 3em;
+    }
+}
+
 .content_contact label {
     color: white;
 }
