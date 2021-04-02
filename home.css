@@ -60,7 +60,7 @@ h1.headingHome {
     /* bottom: 20px; */
     height: 90%;
     width: auto;
-    font-size: calc(100% + 1.5vw + 1vh);
+    font-size: calc(100% + 1.5vw);
     
     background-color: rgba(39, 37, 31, 0.8);
     color: white;
