@@ -21,7 +21,7 @@ body {
 } 
 .flags h1 {
     color: white;
-    font-size: calc(100% + 1vw + 1.5vh);
+    font-size: calc(100% + 1.2vw + 0.9vh);
     position: relative;
     padding-top: 50px;
     text-align: left;
