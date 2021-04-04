@@ -47,7 +47,7 @@ body {
   }
   
   .clip2 {
-    background-image: url("./media/ourTeam/logo.png");
+    background-image: url("./media/ourTeam/clip3.png");
     background-size: cover;
     background-position: center;
     clip-path: polygon(13% 0, 81% 0, 59% 100%, 36% 100%);
